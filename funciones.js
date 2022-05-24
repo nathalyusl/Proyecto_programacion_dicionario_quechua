@@ -1,3 +1,10 @@
+/*______ Proyecto de Programción _______ */
+
+
+
+
+
+
 function colores(valor){
     if (valor==1){
         document.getElementById('traduccion').innerHTML="Ankas";

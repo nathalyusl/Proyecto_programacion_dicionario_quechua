@@ -2,12 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <!-- Dar una dimension de comienzo a la página -->
+    <meta content="width=device-width", initial-scale="1.0" name="viewport">
+
     <title>Diccionario_Quechua</title>
+    <meta content="" name="description">
+    <meta content="" name="Keywords">
+
 </head>
+
 <body>
+
+<!-- ====== Desarrollo del traductor  ===== -->
 <h1>Proyecto de Programación</h1>
-<p>El programa a continuación es un dicionario Español -  Quechua</p>
+<p>El programa a continuación es un dicionario Español -  Quechua que busca ser una
+    herramienta útil y sencilla de utilizar</p>
+
+<!-- Creación de un cajo de opciones y definir variables -->
 <label for>Seleciona el color a traducir</label><br><br>
+
 <select name="color" onchange="colores(this.value);"><br><br>
     <option value=""></option>
     <option value="1">Azul</option>
@@ -24,6 +37,7 @@
     <option value="12">Azul marino</option>
     <option value="13">Blanco</option>
 </select><br><br>
+
 
 <label>Traducción</label><br><br>
 <span id="traduccion"></span>
